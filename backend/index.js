@@ -111,6 +111,6 @@ next();
         res.status(403).send({result:'Please provide verify token'});
     }
 // console.warn("middleware called",token);
-// next();
+ next();
 }
 app.listen(5000);
